@@ -12,9 +12,10 @@ on:
 jobs:
   simple-job:
     runs-on: ubuntu-latest
+    
     steps:
       - name: print user message
-        run:  echo ${{ github.event.inputs.message }}
+        run:  echo "${{ github.event.inputs.message }}"
         shell: bash
         
         
