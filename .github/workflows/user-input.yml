@@ -7,14 +7,14 @@ on:
       message:
         description: not harcoded message
         required:  true
-        default: "default"
+        default: "hello from homelab"
         type: string
 jobs:
   simple-job:
     runs-on: ubuntu-latest
     steps:
       - name: print user message
-        run: ${{ github.event.inputs.message }}
+        run:  echo ${{ github.event.inputs.message }}
         shell: bash
         
         
