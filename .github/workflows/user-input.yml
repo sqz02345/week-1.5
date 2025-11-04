@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       message:
-        description: not harcoded message
+        description: "not harcoded message"
         required:  true
         default: "hello from homelab"
         type: string
