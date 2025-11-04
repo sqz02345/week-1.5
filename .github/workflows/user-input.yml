@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       message:
-        description: "not harcoded message ok"
+        description: "not harcoded message ok io"
         required:  true
         default: "default values"
         type: string
