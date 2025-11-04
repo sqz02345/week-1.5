@@ -7,7 +7,7 @@ on:
       message:
         description: not harcoded message
         required:  true
-        default: "default values"
+  
         type: string
 jobs:
   simple-job:
